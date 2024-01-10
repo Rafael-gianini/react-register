@@ -1,10 +1,20 @@
 
+import {
+  BrowserRouter,
+} from "react-router-dom";
+import { AppRoutes } from "./routes";
+import { AppThemeProvider } from "./shared/contexts/themeContext";
+
 export const App = () => {
   return (
-    <div className="App">
-     Teste
-    </div>
+    <AppThemeProvider >
+
+      <BrowserRouter>
+        <AppRoutes></AppRoutes>
+      </BrowserRouter>
+
+    </AppThemeProvider>
   );
 }
 
-export default App;
+
