@@ -1,7 +1,6 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
 export interface LayoutBasePaginaProps {
-    titulo: string;
     children?: ReactNode;
-    barraDeFerramentas: ReactNode 
+    toolOfList?: ReactNode; 
 }
