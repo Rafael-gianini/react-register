@@ -28,7 +28,7 @@
         ],
         "quotes": [
             "error",
-            "off"                    
+            "single"                    
         ],
         "semi": [
             "error",
